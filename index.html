@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte e Sustentável</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#eef6ed;
+color:#244229;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero{
+max-width:900px;
+padding:30px;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.3rem;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#2e7d32;
+color:white;
+text-decoration:none;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#1b5e20;
+transform:scale(1.05);
+}
+
+section{
+padding:80px 10%;
+}
+
+.titulo{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:50px;
+color:#1b5e20;
+}
+
+.grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#2e7d32;
+margin-bottom:15px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.box{
+background:
+linear-gradient(
+135deg,
+#2e7d32,
+#66bb6a
+);
+
+padding:35px;
+color:white;
+text-align:center;
+border-radius:20px;
+}
+
+.box h2{
+font-size:3rem;
+}
+
+.timeline{
+position:relative;
+margin-top:40px;
+}
+
+.timeline::before{
+content:"";
+position:absolute;
+left:50%;
+width:5px;
+height:100%;
+background:#388e3c;
+}
+
+.evento{
+width:45%;
+padding:25px;
+background:white;
+margin-bottom:30px;
+border-radius:15px;
+position:relative;
+}
+
+.left{
+left:0;
+}
+
+.right{
+left:55%;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.img{
+height:260px;
+border-radius:20px;
+background-size:cover;
+background-position:center;
+}
+
+.i1{
+background:
+url("https://images.unsplash.com/photo-1464226184884-fa280b87c399");
+}
+
+.i2{
+background:
+url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+}
+
+.i3{
+background:
+url("https://images.unsplash.com/photo-1499529112087-3cb3b73cec95");
+}
+
+footer{
+background:#18351f;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:2.5rem;
+}
+
+.timeline::before{
+left:20px;
+}
+
+.evento{
+width:100%;
+left:0;
+margin-left:40px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>🌱 Agro Forte e Sustentável</h1>
+
+<p>
+Transformando a agricultura através da inovação,
+do uso consciente dos recursos naturais e do
+compromisso com as futuras gerações.
+</p>
+
+<a href="#conteudo" class="btn">
+Explorar Projeto
+</a>
+
+</div>
+
+</header>
+
+<section id="conteudo">
+
+<h2 class="titulo">
+Agricultura Sustentável
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>🌾 Produção Responsável</h3>
+
+<p>
+Uso eficiente do solo, redução do desperdício
+e aumento da produtividade agrícola sem
+comprometer o meio ambiente.
+</p>
+
+</div>
+
+<div class="card">
+<h3>💧 Gestão Inteligente da Água</h3>
+
+<p>
+Sistemas modernos de irrigação reduzem
+consumo hídrico e garantem colheitas
+mais sustentáveis.
+</p>
+
+</div>
+
+<div class="card">
+<h3>🚜 Tecnologia no Campo</h3>
+
+<p>
+Sensores, drones e monitoramento digital
+otimizam recursos e fortalecem o agronegócio.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">
+Indicadores Sustentáveis
+</h2>
+
+<div class="stats">
+
+<div class="box">
+<h2>70%</h2>
+<p>Economia de água</p>
+</div>
+
+<div class="box">
+<h2>40%</h2>
+<p>Redução de desperdício</p>
+</div>
+
+<div class="box">
+<h2>100%</h2>
+<p>Compromisso ambiental</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">
+Linha do Tempo do Agro
+</h2>
+
+<div class="timeline">
+
+<div class="evento left">
+<h3>Agricultura Tradicional</h3>
+<p>Produção baseada em técnicas convencionais.</p>
+</div>
+
+<div class="evento right">
+<h3>Agricultura de Precisão</h3>
+<p>Monitoramento e análise inteligente.</p>
+</div>
+
+<div class="evento left">
+<h3>Sustentabilidade</h3>
+<p>Equilíbrio entre produção e conservação.</p>
+</div>
+
+<div class="evento right">
+<h3>Futuro Verde</h3>
+<p>Alta produtividade com menor impacto.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+    <h2 class="titulo">
+        Galeria do Campo
+    </h2>
+
+
+            <div class="info">
+
+                <h3>🌾 Produção Sustentável</h3>
+
+                <p>
+                    Cultivo responsável com preservação do solo,
+                    redução de impactos ambientais e aumento
+                    da produtividade agrícola.
+                </p>
+
+            </div>
+
+            <br>
+
+            <hr>
+
+            <div class="info">
+
+                <h3>💧 Irrigação Inteligente</h3>
+
+                <p>
+                    Tecnologias modernas permitem economia
+                    de água e melhor aproveitamento dos recursos.
+                </p>
+
+        </div>
+
+        
+        <br>
+
+        <hr>
+
+                
+
+            <div class="info">
+
+                <h3>🚜 Agricultura Tecnológica</h3>
+
+                <p>
+                    Uso de drones, sensores e análise digital
+                    para fortalecer o agronegócio sustentável.
+                </p>
+
+            </div>
+            
+            <br>
+
+        <hr>
+
+
+
+
+<h2 class="titulo">
+Tecnologias Sustentáveis
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>☀ Energia Solar</h3>
+<p>
+Aplicação de energia renovável em operações agrícolas.
+</p>
+</div>
+
+<div class="card">
+<h3>🌍 Agricultura Regenerativa</h3>
+<p>
+Recuperação do solo e preservação ambiental.
+</p>
+</div>
+
+<div class="card">
+<h3>📡 Monitoramento Inteligente</h3>
+<p>
+Controle em tempo real das culturas.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Agro Forte e Sustentável</h2>
+
+<p>
+Cultivando inovação, produzindo futuro.
+</p>
+
+<p>
+Projeto desenvolvido em HTML + CSS
+</p>
+
+</footer>
+
+</body>
+</html>
